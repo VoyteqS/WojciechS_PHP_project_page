@@ -1,0 +1,55 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  margin: 0;
+  padding: 0;
+}
+
+.add_product {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ffffff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  text-align: center;
+}
+
+.form-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.form-table td {
+  padding: 10px;
+}
+
+.form-table label {
+  display: inline-block;
+  width: 120px;
+  font-weight: bold;
+}
+
+.form-table input[type="text"],
+.form-table select,
+.form-table textarea,
+.form-table input[type="file"],
+.form-table input[type="number"],
+.form-table input[type="submit"] {
+  width: 300px;
+  padding: 5px;
+}
+
+.form-table input[type="submit"] {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.form-table input[type="submit"]:hover {
+  background-color: #555;
+}
